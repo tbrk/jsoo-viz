@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+          "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>JSOO Experiment: interacting with Graphviz library</title>
+    <script src="viz.js"></script>
+    <script src="full.render.js"></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <h1>Graphviz test</h1>
+  </body>
+<!--
+  <script>
+    var viz = new Viz();
+
+    viz.renderSVGElement('digraph { a -> b }')
+    .then(function(element) {
+      document.body.appendChild(element);
+    })
+    .catch(error => {
+      // Create a new Viz instance (@see Caveats page for more info)
+      viz = new Viz();
+
+      // Possibly display the error
+      console.error(error);
+    });
+  </script>
+-->
+</html>
